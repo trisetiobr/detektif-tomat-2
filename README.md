@@ -8,7 +8,7 @@
 * PyYaml >= 3.11
 
 ## How to use
-* Simpan semua kelas dalam dataset di dalam direktori ./dataset
+* Simpan semua kelas dalam dataset di dalam direktori `./dataset`
 * Tahap praproses data jalankan `python preprocess.py` pada terminal. Hasilnya akan terlihat pada direktori `./dataset/preprocessed/*`
 * Tahap ekstraksi ciri jalankan `python feature.py` pada terminal. Hasilnya akan terlihat pada direktori `./feature/feature.csv`
 * Setting konfigurasi parameter Knn pada file system_config.json. Ubah settingan `classifier["parameters"]["k"]` sesuai keinginan. (Note: nilai k harus ganjil).

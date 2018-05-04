@@ -9,8 +9,8 @@
 
 ## How to use
 * Simpan semua kelas dalam dataset di dalam direktori ./dataset
-* Tahap praproses data jalankan `python preprocess.py` pada terminal. Hasilnya akan terlihat pada direktori ./dataset/preprocessed/*
-* Tahap ekstraksi ciri jalankan `python feature.py` pada terminal. Hasilnya akan terlihat pada direktori ./feature/feature.csv
-* Setting konfigurasi parameter Knn pada file system_config.json. Ubah settingan classifier["parameters"]["k"] sesuai keinginan. (Note: nilai k harus ganjil).
-* Tahap pelatihan dan test data jalankan `python classify.py` pada terminal. Hasilnya akan terlihat pada direktori ./model/classifier.p
-* Tahap identifikasi berdasarkan input dari user. Masukkan semua citra yang ingin di identifikasi pada direktori ./input. Jalankan `python identify.py` pada terminal. Hasilnya akan terlihat pada terminal.
+* Tahap praproses data jalankan `python preprocess.py` pada terminal. Hasilnya akan terlihat pada direktori `./dataset/preprocessed/*`
+* Tahap ekstraksi ciri jalankan `python feature.py` pada terminal. Hasilnya akan terlihat pada direktori `./feature/feature.csv`
+* Setting konfigurasi parameter Knn pada file system_config.json. Ubah settingan `classifier["parameters"]["k"]` sesuai keinginan. (Note: nilai k harus ganjil).
+* Tahap pelatihan dan test data jalankan `python classify.py` pada terminal. Hasilnya akan terlihat pada direktori `./model/classifier.p`
+* Tahap identifikasi berdasarkan input dari user. Masukkan semua citra yang ingin di identifikasi pada direktori `./input.` Jalankan `python identify.py` pada terminal. Hasilnya akan terlihat pada terminal.

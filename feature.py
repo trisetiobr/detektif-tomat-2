@@ -23,6 +23,8 @@ def main():
     classList =  os.listdir(indir)
 
     for c in classList:
+        if c == '.gitignore':
+            continue
         cIndir = os.path.join(indir,c)
 
         fnames = [f for f in os.listdir(cIndir)
